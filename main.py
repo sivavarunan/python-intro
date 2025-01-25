@@ -67,3 +67,18 @@ multiple variables can be printed using ,
 '+' is used as add in numbers
 there will be error if you try to  print number and string together using '+'
 """
+
+# Global variables
+variable = "awesome"
+
+
+def myfunc():
+    print("python is " + variable)
+
+
+myfunc()
+
+"""
+variables that are created outside the function is global variables
+
+"""
