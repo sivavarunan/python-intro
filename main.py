@@ -51,3 +51,19 @@ MyVariableName = "krishna"
 
 # 3.Snake Case - each word is separated by underscore
 my_variable_name = "Krishna"
+
+"""
+Assigning many values to multiple variables in one line
+also possible to assign single value to multiple variables
+also can be used to unpack a collection
+"""
+fruit1, fruit2, fruit3 = "apple", "banana", "orange"
+f1 = f2 = f3 = "orange"
+
+"""
+out put variables using 'print' function 
+multiple variables can be printed using ,
+'+' is also used to print multiple variables
+'+' is used as add in numbers
+there will be error if you try to  print number and string together using '+'
+"""
