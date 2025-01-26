@@ -73,12 +73,18 @@ variable = "awesome"
 
 
 def myfunc():
+    global v
+    v = "great"
     print("python is " + variable)
 
 
 myfunc()
 
+print("python is " + v)
+
 """
 variables that are created outside the function is global variables
+you can create variable locally also
+'global' keyword is used in function to define variable globally
 
 """
